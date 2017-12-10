@@ -141,7 +141,7 @@ P-5,Egypt
 ```
 * reducer-2: sums the distinct countries of each product and output the result as the following:
 ```
-P-1                 6
+P-1          6
 P-2	       8
 P-3	       7
 P-4	       5
