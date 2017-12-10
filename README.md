@@ -8,7 +8,7 @@ Brief about this project
  
  We will use them to try figuring out how many countries was each product sold in. **Without using any kind of Data Structures**.
  
-### System Architecture ( Which this project was developed over)
+### System Architecture ( Which this project was developed over )
 * Processor type: Intel &reg; Core&trade; i5-2410 CPU @ 2.30Ghz x 4
 * Memory: 7.7 GiB
 
@@ -141,7 +141,7 @@ P-5,Egypt
 ```
 * reducer-2: sums the distinct countries of each product and output the result as the following:
 ```
-P-1         6
+P-1                 6
 P-2	       8
 P-3	       7
 P-4	       5
@@ -188,7 +188,7 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.8.1.jar \
 -output /project/output2 
 -file /path/to/this_project/mapper-2.py \
 -mapper mapper-2.py 
--file /path/to/this_project/reducer-2.py 
+-file /path/to/this_project/reducer-2.py \
 -reducer reducer-2.py
 ```
 And that's it.
