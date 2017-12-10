@@ -2,7 +2,7 @@
 
 Brief about this project
 
-**MapReduce**is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster. A MapReduce program is composed of a _Map()_ procedure (method) that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a _Reduce()_ method that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). Following project illustrates discussed concepts using two datasets which are: 
+**MapReduce** is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster. A MapReduce program is composed of a _Map()_ procedure (method) that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a _Reduce()_ method that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). Following project illustrates discussed concepts using two datasets which are: 
  * _ItemPurchases.csv_
  * _UserDemographicInformation.csv_ (They are both attached in the same repository.)
  
@@ -141,7 +141,7 @@ P-5,Egypt
 ```
 * reducer-2: sums the distinct countries of each product and output the result as the following:
 ```
-P-1       6
+P-1         6
 P-2	       8
 P-3	       7
 P-4	       5
